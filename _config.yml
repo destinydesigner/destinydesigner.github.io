@@ -18,19 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: destinydesigner.github.io
-email: dd.destinydesigner@gmail.com
+title: Fang Guojian's Homepage
+# email: dd.destinydesigner@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    I'm lying.
+  A philosophy and mathematics enthusiast.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://destinydesigner.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.fangguojian.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  destinydesigner
+# github_username:  destinydesigner
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,3 +52,23 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+author:
+  name: Fang Guojian
+  email: dd.destinydesigner@gmail.com
+
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    linkedin: guojian-fang-888a2898
+    # github: destinydesigner
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+paginate: 5
+paginate_path: "/posts/page:num/"
