@@ -7,7 +7,7 @@ author: Fang Guojian
 
 # Annotations in Chinese
 
-No underwave in MathJax, so I just used `\underparen`.
+No `\underwave` in MathJax, so I just used `\underparen`.
 
 $$ (定) \underline{\underline{主}} [状]  \underline{谓} \langle 补 \rangle (定) \underparen{宾} $$
 
