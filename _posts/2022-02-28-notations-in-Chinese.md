@@ -20,6 +20,8 @@ $$ (定) \underline{\underline{主}} [状]  \underline{谓} \langle 补 \rangle 
 |facts|事实|
 |things, entities|事物|
 |atomic facts|事态|
+|objects|对象|
+|substance|实体|
 
 ---
 
@@ -89,7 +91,60 @@ $$ 如果我能够思想在事态中结合的对象，我就不能离开这种�
 
 >>>>> 2.0122 The thing is independent, in so far as it can occur in all possible circumstances, but this form of independence is a form of connexion with the atomic fact, a form of dependence. (It is impossible for words to occur in two different ways, alone and in the proposition.)
 
->>>>> 2.0122 $$ 事物就其能够出现在一切可能的状况中而言是独立的，但是这种独立性的形式是一种与事态相联系的形式，即一种依赖的形式。（词以两种不同的方式————单独地和在命题中————出现是不可能的。）$$
+>>>>> 2.0122 $$ 事物就其能够出现在一切可能的状况中而言是独立的，但是这种独立性的形式是一种与事态相联系的形式，即一种依赖的形式。（词以两种不同的方式——单独地和在命题中——出现是不可能的。）$$
+
+>>>>> 2.0123 If I know an object, then I also know all the possibilities of its occurrence in atomic facts. <br/>
+(Every such possibility must lie in the nature of the object.) <br/>
+A new possibility cannot subsequently be found.
+
+>>>>> 2.0123 $$ 假如我知道一个对象，我也就知道它出现于诸事态中的所有可能性。$$ <br/>
+$$ （每一个这种可能性必定在该对象的本性中。）$$ <br/>
+$$ 之后不可能发现新的可能性。$$
+
+>>>>>> 2.01231 In order to know an object, I must know not its external but all its internal qualities.
+
+>>>>>> 2.01231 $$ 如果我要知道一个对象，虽然我不一定要知道它的外在性质，但是我必须知道它的一切内在性质。$$
+
+>>>>> 2.0124 If all objects are given, then thereby are all possible atomic facts also given.
+
+>>>>> 2.0124 $$ 如果给出所有的对象，那么同时也就给出了所有可能的事态。$$
+
+>>>> 2.013 Every thing is, as it were, in a space of possible atomic facts. I can think of this space as empty, but not of the thing without the space.
+
+>>>> 2.013 $$ 每个事物都像是在一个可能事态的空间里。我可以设想这个空间是空的，但是我不能设想没有这空间的事物。$$
+
+>>>>> 2.0131 A spatial object must lie in infinite space. (A point in space is an argument place.) <br/>
+A speck in a visual field need not be red, but it must have a colour; it has, so to speak, a colour space round it. A tone must have a pitch, the object of the sense of touch a hardness, etc.
+
+>>>>> 2.0131 $$ 空间对象必须处在无限的空间之中。（一个空间点就是一个主目位置。）$$ <br/>
+$$ 视域里的一个斑块，虽然不一定是红的，但它必须有某种颜色：所以说它被颜色空间[Farbenraum]所包围。音调必须具有某种高度，触觉对象必须具有某种硬度，等等。$$
+
+>>>> 2.014 Objects contain the possibility of all states of affairs.
+
+>>>> 2.014 $$ \underline{\underline{对象}}\underline{包含}着(一切状况的)\underparen{可能性}。$$
+
+>>>>> 2.0141 The possibility of its occurrence in atomic facts is the form of the object.
+
+>>>>> 2.0141 $$ 对象出现在诸事态中的可能性就是对象的形式。$$
+
+>>> 2.02 The object is simple.
+
+>>> 2.02 $$ 对象是简单的。$$
+
+>>>>> 2.0201 Every statement about complexes can be analysed into a statement about their constituent parts, and into those propositions which completely describe the complexes.
+
+>>>>> 2.0201 $$ 每一个关于复合物的陈述可以分解为关于其各组成部分的陈述，分解为完全地描述该复合物的一些命题。$$
+
+>>>> 2.021 Objects form the substance of the world. Therefore they cannot be compound.
+
+>>>> 2.021 $$ 对象构成世界的实体。因此它们不能是复合的。$$
+
+>>>>> 2.0211 If the world had no substance, then whether a proposition had sense would depend on whether another proposition was true.
+
+>>>>> 2.0211 $$ [假如世界没有实体]，那么(一个命题)\underline{\underline{是否有意义}}就\underline{依赖于}(另一个命题)\underparen{是否为真}。$$
+
+
+
 
 ---
 
