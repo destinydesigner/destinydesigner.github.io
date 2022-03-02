@@ -4,7 +4,11 @@ title:  The Annotated Tractatus Logico-Philosophicus in Chinese
 date:   2022-02-28 22:17:17 +0800
 update: 2022-03-01 12:45:12 +0800
 author: Fang Guojian
+tags: philosophy
 ---
+
+* TOC
+{:toc}
 
 # Annotations in Chinese Grammar
 
