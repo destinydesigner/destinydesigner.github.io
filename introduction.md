@@ -20,5 +20,5 @@ During these years, I have practised plenty of techniques(*Network Programming*,
 Besides engineering, my interests are ***philosophy***(Logic and Metaphysics) and ***mathematics***(Formal Systems).
 
 <a href="https://www.linkedin.com/in/guojian-fang-888a2898/" target="_blank">
-<img src="{{site.baseurl}}assets/img/profile.jpg" />
+<img class="center" src="{{site.baseurl}}assets/img/profile.jpg" />
 </a>

@@ -5,8 +5,23 @@
 @import "minima";
 
 /* ********************************************************* */
-$div-wrapper-margin-left: 10%;
-// div.wrapper {margin-left:$div-wrapper-margin-left;}
+$div-wrapper-margin: 25%;
+div.wrapper {
+  margin-left:$div-wrapper-margin;
+  margin-right:$div-wrapper-margin;
+}
+
+.wrapper {
+  max-width:none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* SIDEBAR */
 nav.toc {float:right;width:30%;max-width:320px;margin-top:-100px;}
 nav.toc ul {list-style:none;padding-left:0;margin-left:0;}
@@ -16,7 +31,7 @@ nav.toc-fixed {position:fixed;top:50px;left:60%;max-width:320px}
 nav.toc-fixed ul {list-style:none;padding-left:0;margin-left:0;}
 
 // /* SIDEBAR WITHOUT MORE LEVELS OFTAGS */
-div.post-content > #markdown-toc {float:right;width:30%;max-width:320px;margin-top:-70px;}
+div.post-content > #markdown-toc {float:right;width:30%;max-width:320px;margin-top:0px;}
 div.post-content > #markdown-toc {list-style:none;padding-left:0;margin-left:0;}
 
 div.posts > #markdown-toc {float:right;width:30%;max-width:320px;margin-top:0px;}

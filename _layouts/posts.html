@@ -2,39 +2,86 @@
 layout: default
 ---
 
+<style>
+  ul.pager { text-align: center; list-style: none; }
+  ul.pager li {display: inline; padding: 10px; margin: 5px;}
+</style>
+
 <div class="posts">
 <ul id="markdown-toc">
-  <h1>Tags:</h1>
-  {% for tag in site.tags %}
-    <h3>{{ tag[0] }}</h3>
-    <ul>
-      {% for post in tag[1] %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  {% endfor %}
+<h2>Tags:</h2>
+{% for tag in site.tags %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
 </ul>
 
-
-{%- for post in site.posts -%}
-{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-<h3>
-    <a class="post-link" href="{{ post.url | relative_url }}">
-    {{ post.title | escape }}
-    </a>
-</h3>
-<!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ post.date | date: date_format }}
-      </time>
-      {%- if post.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ post.author }}</span></span>
+<ul class="post-list">
+  <!-- 
+      Here is the main paginator logic called.
+      All calls to site.posts should be replaced by paginator.posts 
+  -->
+  {%- if paginator -%}
+  {% for post in paginator.posts %}
+    <li>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h3>
+      <p class="post-meta">
+          <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            {{ post.date | date: date_format }}
+          </time>
+          {%- if post.author -%}
+            • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ post.author }}</span></span>
+          {%- endif -%}
+      </p>
+      {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
       {%- endif -%}
+    </li>
+  {% endfor %}
+  {%- else - %}
+  {% for post in site.posts %}
+  <li>
+    <h3>
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </h3>
+    <p class="post-meta">
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ post.date | date: date_format }}
+        </time>
+        {%- if post.author -%}
+          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ post.author }}</span></span>
+        {%- endif -%}
     </p>
-{%- if site.show_excerpts -%}
-    {{ post.excerpt }}
-{%- endif -%}
-{%- endfor -%}
-</div>
+    {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+    {%- endif -%}
+  </li>
+{% endfor %}
+  {%- endif -%}
+</ul>
+
+<!-- 
+  Showing buttons to move to the next and to the previous list of posts (pager buttons).
+-->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
