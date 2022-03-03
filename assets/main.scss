@@ -6,40 +6,55 @@
 
 /* ********************************************************* */
 $div-wrapper-margin: 25%;
-div.wrapper {
-  margin-left:$div-wrapper-margin;
-  margin-right:$div-wrapper-margin;
+$width-bound: 1600px;
+
+@media (max-width: $width-bound) {
+  div.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wrapper {
+    max-width: auto;
+  }
 }
 
-.wrapper {
-  max-width:none;
+@media (min-width: 800px) {
+  /* SIDEBAR */
+  nav.toc {float:right;width:30%;max-width:320px;margin-top:-100px;}
+  nav.toc ul {list-style:none;padding-left:0;margin-left:0;}
+
+  /* FIXED SIDEBAR */
+  nav.toc-fixed {position:fixed;top:50px;left:60%;max-width:320px}
+  nav.toc-fixed ul {list-style:none;padding-left:0;margin-left:0;}
+
+  // /* SIDEBAR WITHOUT MORE LEVELS OFTAGS */
+  div.post-content > #markdown-toc {float:right;width:30%;max-width:320px;margin-top:0px;}
+  div.post-content > #markdown-toc {list-style:none;padding-left:0;margin-left:0;}
+
+  div.posts > #markdown-toc {float:right;width:30%;max-width:320px;margin-top:0px;}
+  div.posts > #markdown-toc {list-style:none;padding-left:0;margin-left:0;}
+  div.posts > p, h3 {width:65%;max-width:640;}
+
+  div.posts,div.post-content {
+    table,hr,p,div.highlight {width:65%;max-width:640;}
+  }
+}
+
+
+@media (min-width: $width-bound) {
+  div.wrapper {
+    margin-left: $div-wrapper-margin;
+    margin-right: $div-wrapper-margin;
+  }
+  .wrapper {
+    max-width: none;
+  }
 }
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-}
-
-/* SIDEBAR */
-nav.toc {float:right;width:30%;max-width:320px;margin-top:-100px;}
-nav.toc ul {list-style:none;padding-left:0;margin-left:0;}
-
-/* FIXED SIDEBAR */
-nav.toc-fixed {position:fixed;top:50px;left:60%;max-width:320px}
-nav.toc-fixed ul {list-style:none;padding-left:0;margin-left:0;}
-
-// /* SIDEBAR WITHOUT MORE LEVELS OFTAGS */
-div.post-content > #markdown-toc {float:right;width:30%;max-width:320px;margin-top:0px;}
-div.post-content > #markdown-toc {list-style:none;padding-left:0;margin-left:0;}
-
-div.posts > #markdown-toc {float:right;width:30%;max-width:320px;margin-top:0px;}
-div.posts > #markdown-toc {list-style:none;padding-left:0;margin-left:0;}
-div.posts > p, h3 {width:65%;max-width:640;}
-
-div.posts,div.post-content {
-  table,hr,p,div.highlight {width:65%;max-width:640;}
 }
 
 
