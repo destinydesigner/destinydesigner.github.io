@@ -3,7 +3,7 @@ layout: post
 title:  Reading & Learning Recommendations
 date:   2022-03-03 23:55:32 +0800
 author: Fang Guojian
-tags: R&D
+tags: L&D
 ---
 
 |Name| |Practical|Theoretical|Difficult|For|

@@ -81,4 +81,6 @@ pagination:
 # exclude: ["/posts/"]
 
 show_excerpts: false
-debug: true
+debug: false
+
+google_analytics: 'G-R2MMHNXD1L'
