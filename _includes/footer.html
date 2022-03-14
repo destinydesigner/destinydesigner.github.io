@@ -4,7 +4,7 @@
     <div class="wrapper">
   
       <div class="footer-col-wrapper">
-        <div class="footer-col">
+        <!-- <div class="footer-col">
           <p class="feed-subscribe">
             <a href="{{ 'feed.xml' | relative_url }}">
               <svg class="svg-icon orange">
@@ -22,17 +22,23 @@
             {%- endif %}
           </ul>
         {%- endif %}
-        </div>
-        <div class="footer-col">
+        </div> -->
+        <!-- <div class="footer-col">
           <p>{{ site.description | escape }}</p>
-        </div>
+        </div> -->
       </div>
       
-      {%- if site.minima.social_links.size > 0 %}
+      <!-- {%- if site.minima.social_links.size > 0 %}
       <div class="social-links">
         {%- include social.html -%}
       </div>
-      {%- endif %}
+      {%- endif %} -->
+
+      <div class="copyright footer-col-wrapper">
+        <div class="footer-col">
+          <p>&copy; 2022 {{ site.author.name }}</p>
+        </div>
+      </div>
   
     </div>
   
