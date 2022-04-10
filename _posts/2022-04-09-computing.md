@@ -122,3 +122,11 @@ func gcd(a, b int) int {
 ---
 
 ## #2 Context matters a lot
+
+---
+
+## References
+
+“Conversion.” *The Lambda Calculus: Its Syntax and Semantics*, College Publications, 2012.
+
+[Presentation](/assets/2022-04-09-computing.html)
