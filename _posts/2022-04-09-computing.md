@@ -7,11 +7,51 @@ tags: CS
 marp: true
 ---
 
-# Things you must know as a software engineer
+# Things you ~~must~~ should know as a <span style="color:green">good</span> software engineer
 
 ---
 
-## #0 Learn Lambda Calculus
+## Agenda
+- The principle
+- The formal language
+
+---
+
+## The principle
+> What can be said at all can be said clearly; and whereof one cannot speak thereof one must be silent.
+-- Ludwig Wittgenstein
+
+![bg right:33%](../assets/img/81jxMOgdD8L.jpeg)
+<!-- Here should be a clear line between the known and the unknown. -->
+
+---
+
+## #0 Lambda Calculus
+
+---
+
+### Why Lambda Calculus?
+
+---
+
+### Leibniz Calculator
+![bg right](../assets/img/Leibnitzrechenmaschine.jpeg)
+<!-- invented by the German mathematician Gottfried Wilhelm Leibniz around 1672 and completed in 1694. -->
+
+---
+
+#### Entscheidungsproblem - Decision problem
+- A machine that could manipulate symbols in order to **determine the truth values** of mathematical statements.
+
+The first step would have to be a clean **formal language**
+![bg right:40%](../assets/img/Leibniz.jpg)
+
+---
+
+In 1936, Alonzo Church and Alan Turing published independent papers showing that a general solution to the Entscheidungsproblem is impossible.
+![bg right](../assets/img/Alonzo_Church.jpg)
+![bg right](../assets/img/Alan_Turing_Aged_16.jpg)
+<!-- -->
 
 ---
 
@@ -32,6 +72,60 @@ where $x$ in (1) or (2) is an arbitrary variable.
 
 ---
 
+$$
+\textbf{There is no clear boundaries} \\
+\textbf{between data, computation, programming languages and programming paradigms.}
+$$
+
+---
+
+### Example: If statement and $\beta$-reduction
+$TRUE=\lambda x . \lambda y . x$
+$FALSE=\lambda x . \lambda y . y$
+$IF=\lambda p . \lambda a . \lambda b . p\ a\ b$
+
+$$
+\begin{align*}
+IF\quad TRUE\quad M\quad N &= \lambda p . \lambda a . \lambda b .\ p\ a\ b\quad TRUE\quad M\quad N \\
+                           &= TRUE\quad M\quad N \\
+                           &= \lambda x . \lambda y . x\quad M\quad N \\
+                           &= M
+\end{align*}
+$$
+
+---
+
+### Example: Church Numerals
+
+$c_0 = \lambda s. \lambda z. z;$
+$c_1 = \lambda s. \lambda z.\ s\ z;$
+$c_2 = \lambda s. \lambda z.\ s\ (s\ z);$
+$c_3 = \lambda s. \lambda z.\ s\ (s\ (s\ z));$
+$...$
+
+$plus = \lambda m. \lambda n. \lambda s. \lambda z.\ m\ s\ (n\ s\ z)$
+<!-- s: successor, z: zero -->
+
+---
+
+## #0.1 Try to create and use pure functions as many as possible
+
+---
+
+In computer programming, a pure function is a function that has the following properties:
+1. the function return values are identical for identical arguments (no variation with local static variables, non-local variables, mutable reference arguments or input streams), and
+2. the function application has no side effects (no mutation of local static variables, non-local variables, mutable reference arguments or input/output streams).
+
+---
+
+$$AssertEquals(f(x), f(x))$$
+
+---
+
+## #1 Context matters
+
+---
+
 A variable $x$ occurs *free* in a $\lambda$-terms $M$ if $x$ is not in the scope of a $\lambda x$; $x$ occurs *bound* otherwise.
 
 In $x (\lambda y.xy)$, $x$ occurs free and $y$ occurs bound.
@@ -39,7 +133,7 @@ In $y (\lambda y.y)$, $y$ occurs both free and bound.
 
 ---
 
-## #1 Choose programming paradigm wisely
+## #2 Choose programming paradigm wisely
 
 ---
 
@@ -49,7 +143,7 @@ Common programming paradigms include:
 
 - *imperative* in which the programmer **instructs** the machine how to change its state.
 
-<img src="{{site.baseurl}}assets/img/imperative.svg" alt="">
+![](../assets/img/imperative.svg)
 <!-- 
 @startuml
 digraph G {
@@ -63,7 +157,7 @@ rankdir="LR";
 
 - *declarative* in which the programmer merely **declares** properties of the desired result, but not how to compute it.
 
-<img src="{{site.baseurl}}assets/img/declarative.svg" alt="">
+![](../assets/img/declarative.svg)
 <!--
 @startuml
 digraph G {
@@ -117,16 +211,24 @@ func gcd(a, b int) int {
 
 ---
 
-## #1.1 Write stateless code as much as possible
+$$ Thanks! \\ Q \& A $$
 
 ---
 
-## #2 Context matters a lot
+<!-- 
+## #3 Semantics matters
 
----
+--- -->
 
 ## References
 
 “Conversion.” *The Lambda Calculus: Its Syntax and Semantics*, College Publications, 2012.
+
+---
+
+## Wiki
+[Foundations of mathematics - Wikipedia](https://en.wikipedia.org/wiki/Foundations_of_mathematics)
+
+---
 
 [Presentation](/assets/2022-04-09-computing.html)
