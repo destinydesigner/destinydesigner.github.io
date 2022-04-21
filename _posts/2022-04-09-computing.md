@@ -223,12 +223,14 @@ $$ Thanks! \\ Q \& A $$
 ## References
 
 “Conversion.” *The Lambda Calculus: Its Syntax and Semantics*, College Publications, 2012.
+“The Untyped Lambda-Calculus.” *Types and Programming Languages*, by Benjamin C. Pierce, The MIT Press, 2002. 
 
 ---
 
 ## Wiki
 [Foundations of mathematics - Wikipedia](https://en.wikipedia.org/wiki/Foundations_of_mathematics)
-
----
-
-[Presentation](/assets/2022-04-09-computing.html)
+[Alonzo Church - Wikipedia](https://en.wikipedia.org/wiki/Alonzo_Church)
+[Alan Turing - Wikipedia](https://en.wikipedia.org/wiki/Alan_Turing)
+[Lambda calculus - Wikipedia](https://en.wikipedia.org/wiki/Lambda_calculus)
+[Tractatus Logico-Philosophicus - Wikipedia](https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus)
+[Gottfried Wilhelm Leibniz - Wikipedia](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz)
