@@ -234,3 +234,7 @@ $$ Thanks! \\ Q \& A $$
 [Lambda calculus - Wikipedia](https://en.wikipedia.org/wiki/Lambda_calculus)
 [Tractatus Logico-Philosophicus - Wikipedia](https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus)
 [Gottfried Wilhelm Leibniz - Wikipedia](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz)
+
+---
+
+[Presentation](../assets/2022-04-09-computing.html)
