@@ -29,4 +29,4 @@ tags: L&D
 |The Art of UNIX Programming|Design|★★★☆☆|★★★☆☆|★★☆☆☆|Junior to Senior [optional]|
 |Programming Language Pragmatics|Languages|★★★☆☆|★★★★☆|★★★★☆|Senior to Expert [optional]|
 |Types and Programming Languages (MIT Press)|Languages|★★★☆☆|★★★★☆|★★★★☆|Senior to Expert [optional]|
-
+|Java Concurrency in Practice|Design, Architecture & Coding|★★★★☆|★☆☆☆☆|★★★☆☆|Senior to Expert [optional]|
