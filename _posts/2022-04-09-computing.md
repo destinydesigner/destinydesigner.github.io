@@ -21,7 +21,7 @@ marp: true
 > What can be said at all can be said clearly; and whereof one cannot speak thereof one must be silent.
 -- Ludwig Wittgenstein
 
-![bg right:33%](../assets/img/81jxMOgdD8L.jpeg)
+![bg right:33%](/assets/img/81jxMOgdD8L.jpeg)
 <!-- Here should be a clear line between the known and the unknown. -->
 
 ---
@@ -35,7 +35,7 @@ marp: true
 ---
 
 ### Leibniz Calculator
-![bg right](../assets/img/Leibnitzrechenmaschine.jpeg)
+![bg right](/assets/img/Leibnitzrechenmaschine.jpeg)
 <!-- invented by the German mathematician Gottfried Wilhelm Leibniz around 1672 and completed in 1694. -->
 
 ---
@@ -44,13 +44,13 @@ marp: true
 - A machine that could manipulate symbols in order to **determine the truth values** of mathematical statements.
 
 The first step would have to be a clean **formal language**
-![bg right:40%](../assets/img/Leibniz.jpg)
+![bg right:40%](/assets/img/Leibniz.jpg)
 
 ---
 
 In 1936, Alonzo Church and Alan Turing published independent papers showing that a general solution to the Entscheidungsproblem is impossible.
-![bg right](../assets/img/Alonzo_Church.jpg)
-![bg right](../assets/img/Alan_Turing_Aged_16.jpg)
+![bg right](/assets/img/Alonzo_Church.jpg)
+![bg right](/assets/img/Alan_Turing_Aged_16.jpg)
 <!-- -->
 
 ---
@@ -143,7 +143,7 @@ Common programming paradigms include:
 
 - *imperative* in which the programmer **instructs** the machine how to change its state.
 
-![](../assets/img/imperative.svg)
+![](/assets/img/imperative.svg)
 <!-- 
 @startuml
 digraph G {
@@ -157,7 +157,7 @@ rankdir="LR";
 
 - *declarative* in which the programmer merely **declares** properties of the desired result, but not how to compute it.
 
-![](../assets/img/declarative.svg)
+![](/assets/img/declarative.svg)
 <!--
 @startuml
 digraph G {
@@ -237,4 +237,4 @@ $$ Thanks! \\ Q \& A $$
 
 ---
 
-[Presentation](../assets/2022-04-09-computing.html)
+[Presentation](/assets/2022-04-09-computing.html)
