@@ -8,17 +8,17 @@ permalink: /
 Hi, I'm Guojian from China and currently live in Singapore.
 
 <!-- Working experience -->
-I have been a Software Engineer for more than ten years and had worked in two listed companies([***Tencent***](https://www.tencent.com/){:target="_blank"} and [***Sea Limited***](https://www.sea.com/){:target="_blank"}). Currently, I'm an Engineering Director in [***OKX***](https://www.okx.com/){:target="_blank"}.
+With over a decade of experience as a Software Engineer, I've had the opportunity to contribute to two publicly traded companies, ([***Tencent***](https://www.tencent.com/){:target="_blank"} and [***Sea Limited***](https://www.sea.com/){:target="_blank"}). Presently, I serve as an Engineering Director at [***OKX***](https://www.okx.com/){:target="_blank"}.
 
 <!-- Technical skills -->
-During these years, I have practised plenty of techniques(*Network Programming*, *Relational Database*, *Distributed Computing*, *Concurrent Computing*) and methodologies(*TDD*, *DDD*, *CI/CD*, *Agile*) in various programming languages(***C++***, ***Python***, ***Go***, ***Java***) in different fields(*E-commerce*, *Crypto*, *Marketing*, *Service Mesh & Service Governance*, *Cloud Computing*, etc.) in my career.
+Throughout my career, I have honed a wide array of skills and methodologies, including Network Programming, Relational Database, Distributed Computing, and Concurrent Computing, as well as TDD, DDD, CI/CD, and Agile. I've applied these in multiple programming languages, such as ***C++***, ***Python***, ***Go***, and ***Java***, across various domains like *E-commerce*, *Crypto*, *Marketing*, *Service Mesh & Service Governance*, and *Cloud Computing*.
 
 <!-- Interpersonal skills -->
-
+I leverage a fact-based approach to interpersonal interactions, prioritizing professionalism and respect in all workplace relationships. I value autonomy and encourage my team to experiment and learn from failures, fostering an environment of trust and growth. However, I maintain high standards for reliability and accountability; if trust is compromised, I adopt a more hands-on approach to ensure objectives are met and to restore team dynamics.
 
 
 <!-- interests and hobbies -->
-Besides engineering, my interests are ***philosophy***(Logic and Metaphysics) and ***mathematics***(Formal Systems).
+Beyond the realm of engineering, my passions extend to ***philosophy***, particularly in the areas of Logic and Metaphysics, as well as ***mathematics***, with a focus on Formal Systems.
 
 <a href="https://www.linkedin.com/in/guojian-fang-888a2898/" target="_blank">
 <img class="center" src="{{site.baseurl}}assets/img/profile.jpg" />
